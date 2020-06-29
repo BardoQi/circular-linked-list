@@ -18,7 +18,34 @@
 * 具有双向链表完全特性，可以通过，nextItem()和prevItem() 获取前一元素以下后面元素。nextKey()和prevKey() 获以前一元素和后一元素的Key
 * 支持队列所需的特性，具有push,pop,shift,unshift操作，且队列也支持接头。
 * 函数清单
-    
+     + getKey($key)
+ + nextKey($key)
+ + prevKey($key)
+ + nextItems($from, $to)
+ + nextItemsWithCount($from, $count)
+ + prevItems($from, $to)
+ + prevItemsWithCount($from, $count)
+ + nextItem($key)
+ + prevItem($key)
+ + prevCount($from,$to)
+ + nextCount($from,$to)
+ + getItem($key)
+ + setAt($pos,$value)
+ + add($value)
+ + push($value)
+ + pop()
+ + shift()
+ + unshift($value)
+ + insertAt($pos,$value)
+ + removeAt($pos)
+ + isNeighbours($keyA,$keyB)
+ + count()
+ + isEmpty()
+ + size()
+ + findByPos($pos)
+ + find($value,$strict=false)
+ + toArray()
+  
 ## 安装
 ```php
 $ composer require "bardoqi/circular-linked-list"
