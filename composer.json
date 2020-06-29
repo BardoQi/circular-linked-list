@@ -1,0 +1,34 @@
+{
+  "name": "bardoqi/circular-linked-list",
+  "description": "circular dual linked list based on php array and iterator patten.",
+  "keywords": ["circular linked list", "data structure", "iterator patten","array in ring"],
+  "homepage": "https://github.com/bardoqi/circular-linked-list",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Bardeen QI",
+      "email": "bardoqi@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.5 || ^7.1",
+    "phpunit/php-code-coverage": "^3",
+  },
+  "autoload": {
+    "psr-4": {
+      "bardoqi\\CircularLinkedList\\": "src/CircularLinkedList/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "bardoqi\\CircularLinkedList\\": "src/CircularLinkedList/",
+      "bardoqi\\Tests\\": "tests/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
